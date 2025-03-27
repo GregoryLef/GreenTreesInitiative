@@ -8,134 +8,146 @@
 </head>
 <body class="font-primary text-primary">
     <!-- Nav bar et bouton donation -->
-    <header class="mt-6 flex flex-col">
-        <nav class="flex justify-between items-center px-4">
+    <header class="mt-6 flex flex-col lg:flex-row lg:justify-between lg:items-center lg:px-[105px]  lg:mt-0">
+        <nav class="flex justify-between items-center px-4 lg:pr-16 lg:gap-52 lg:w-full lg:px-0">
             <h1 class="max-w-[140px] font-bold">The Green <br>Trees Initiative</h1>
-            <ul class="min-w-[140px] font-light text-sm">
-                <li><a href="">About us</a></li>
-                <li><a href="#">Our stories</a></li>
-                <li><a href="#">news and events</a></li>
-            </ul>
+            <div>
+                <ul class="min-w-[140px] font-light text-sm lg:flex lg:gap-[100px]">
+                    <li><a href="">About us</a></li>
+                    <li><a href="#">Our stories</a></li>
+                    <li><a href="#">News and events</a></li>
+                </ul>
+            </div>
         </nav>
-        <div class="text-center py-8 w-fit self-center">
-            <a class="btn" href="#">Donate today</a>
+        <div class="text-center py-8 w-fit self-center min-w-fit">
+            <a class="btn bg-secondary" href="#">Donate today</a>
         </div>
     </header>
     <main>
         <!-- The issue -->
-        <section class=" bg-[url(/assets/img/lady-back-mobile.png)] bg-no-repeat bg-cover bg-center px-8 pt-[404px] pb-12 relative">
-            <h2 class="big-title absolute top-8 left-8"># STOP CLIMATE CHANGE</h2>
-            <div class="bg-white flex flex-col items-center gap-8 px-4 pb-4 pt-16 relative">
-                <div class="frame-title absolute -top-5">THE ISSUE</div>
-                <p class="font-bold text-[22px] text-center">Climate change poses the biggest threat to women in developing nations.</p>
-                <a class="underline text-center" href="#">Read mort about this environmental and social cause</a>
+        <section class=" bg-[url(/assets/img/lady-back-mobile.png)]  bg-no-repeat bg-cover bg-center px-8 pt-[404px] pb-12 relative lg:bg-[url(/assets/img/lady-back.png)] lg:bg-cover lg:flex lg:flex-col lg:justify-center lg:gap-9 lg:items-center  lg:pt-[160px]">
+            <div class="lg:flex lg:gap-[100px]">
+                <div class="lg:order-1">
+                    <h2 class="big-title absolute top-8 left-8 leading-12 lg:static lg:text-7xl lg:leading-none lg:min-w-[544px]"># STOP CLIMATE CHANGE</h2>
+                </div>
+                <div class="bg-white flex flex-col items-center gap-8 px-4 pb-4 pt-16 relative lg:text-center lg:min-w-[544px] lg:gap-16 lg:pb-16">
+                    <div class="frame-title absolute -top-5 lg:left-[46px]">THE ISSUE</div>
+                    <p class="font-bold text-[22px] text-center lg:text-[44px] lg:max-w-md lg:leading-none">Climate change poses the biggest threat to women in developing nations.</p>
+                    <a class="underline text-center" href="#">Read mort about this environmental and social cause</a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <p class="frame-title absolute -bottom-5 lg:static">TAKE ACTION</p>
             </div>
         </section>
         <!-- Take action -->
-        <section class="bg-secondary relative flex flex-wrap justify-center pt-16 pb-4 gap-8">
-            <p class="frame-title absolute -top-5">TAKE ACTION</p>
-            <div class="frame-action">
+        <section class="bg-secondary flex flex-wrap justify-center pt-16 pb-4 gap-8 lg:pt-16 lg:pb-16 lg:flex-nowrap">
+            <div class="max-w-[127px] lg:max-w-[300px]">
                 <h3 class="mb-1 font-bold">Learn</h3>
                 <p class="text-sm">Get the facts about this issue and how we’re helping</p>
             </div>
-            <div class="frame-action">
+            <div class="max-w-[127px] lg:max-w-[300px]">
                 <h3 class="mb-1 font-bold">Volunteer</h3>
                 <p class="text-sm">Find out about upcoming events that need your help.</p>
             </div>
-            <div class="frame-action">
+            <div class="max-w-[127px] lg:max-w-[300px]">
                 <h3 class="mb-1 font-bold">Share</h3>
                 <p class="text-sm">Let your social media networks know about this important cause.</p>
             </div>
-            <div class="frame-action">
+            <div class="max-w-[127px] lg:max-w-[300px]">
                 <h3 class="mb-1 font-bold">Donate</h3>
                 <p class="text-sm">Help us raise money to make a big difference with this issue.</p>
             </div>
         </section>
         <!-- What we do -->
-        <section class="bg-primary flex flex-col items-center">
-            <div class="flex flex-col items-center">
-                <h4 class="frame-white">What we do</h4>
-                <p class="text-white">Our mission is to create sustainable work for women in devloping nations while helping to slow climate change.</p>
+        <section class="bg-primary flex flex-col items-center p-8 gap-16">
+            <div class="flex flex-col items-center lg:items-start">
+                <h4 class="frame-white mb-4 lg:min-w-48 lg:text-center">WHAT WE DO</h4>
+                <p class="text-white font-bold text-[22px] text-center">Our mission is to create sustainable work for women in devloping nations while helping to slow climate change.</p>
             </div>
-            <article class="bg-white">
-                <img src="assets/img/tree-planting.png" alt="plantation d'un arbre">
-                <h3>Tree planting initiatives</h3>
-                <p>Office ipsum you must be muted. Competitors synergy so stronger window whatever and work chime tiger. Shower backwards effects vec running first race.</p>
-                <a href="#">Read more</a>
-            </article>
-            <article class="bg-white">
-                <img src="assets/img/farm.png" alt="ferme">
-                <h3>Education and training</h3>
-                <p>Office ipsum you must be muted. Competitors synergy so stronger window whatever and work chime tiger. Shower backwards effects vec running first race.</p>
-                <a href="#">Read more</a>
-            </article>
-            <article class="bg-white"> 
-                <img src="assets/img/lady-face.png" alt="habitante">
-                <h3>Advocacy and campagning</h3>
-                <p>Office ipsum you must be muted. Competitors synergy so stronger window whatever and work chime tiger. Shower backwards effects vec running first race.</p>
-                <a href="#">Read more</a>
-            </article>
+            <div class="flex flex-col gap-16 lg:flex-row lg:gap-28 ">
+                <article class="card text-center lg:max-w-80 lg:pt-[224px] lg:flex lg:flex-col">
+                    <div class="w-[248px] h-[176px] bg-[url(/assets/img/tree-planting.png)] bg-bottom bg-cover absolute -top-10 lg:w-[320px] lg:h-[224px] lg:left-10"></div>
+                    <h3>Tree planting initiatives</h3>
+                    <p class="px-[59.5px] text-sm lg:px-0">Office ipsum you must be muted. Competitors synergy so stronger window whatever and work chime tiger. Shower backwards effects vec running first race.</p>
+                    <a href="#" class="btn bg-secondary">Read more</a>
+                </article>
+                <article class="card text-center lg:max-w-80 lg:pt-[224px]">
+                    <img src="assets/img/farm.png" alt="ferme" class="absolute -top-10 lg:w-[320px] lg:left-10">
+                    <h3>Education and training</h3>
+                    <p class="px-[59.5px] text-sm lg:px-0">Office ipsum you must be muted. Competitors synergy so stronger window whatever and work chime tiger. Shower backwards effects vec running first race.</p>
+                    <a href="#" class="btn bg-secondary">Read more</a>
+                </article>
+                <article class="card text-center lg:max-w-80 lg:pt-[224px]"> 
+                    <img src="assets/img/lady-face.png" alt="habitante" class="absolute -top-10 lg:w-[320px] lg:left-10">
+                    <h3>Advocacy and campagning</h3>
+                    <p class="px-[59.5px] text-sm lg:px-0">Office ipsum you must be muted. Competitors synergy so stronger window whatever and work chime tiger. Shower backwards effects vec running first race.</p>
+                    <a href="#" class="btn bg-secondary">Read more</a>
+                </article>
+            </div>
         </section>
         <!-- Did you know ? -->
-        <section>
-            <div>
-                <h2>CLIMATE CHANGE IS A HUNGER ISSUE</h2>
-                <a href="#">Take action today</a>
+        <section class="bg-[url(/assets/img/lady-farming-mobile.png)] bg-no-repeat bg-cover p-8 flex flex-col gap-4 lg:bg-[url(/assets/img/lady-farming.png)]  lg:bg-center lg:flex-row lg:justify-between lg:py-24 lg:pl-24 lg:pr-36">
+            <div class="flex flex-col gap-6  pt-8  pb-16 lg:w-[472px] lg:pt-0 lg:gap-16">
+                <h2 class="big-title">CLIMATE CHANGE IS A HUNGER ISSUE</h2>
+                <a href="#" class="btn bg-secondary">Take action today</a>
             </div>
-            <article>
-                <div>
-                    <div>DID YOU KNOW</div>
-                    <p> 3 out of 4</p>
-                    <img src="assets/img/icn-tw.png" alt="twitter">
-                </div>
-                <div>
-                    <p>People living in poverty depend on agriculture for survival.</p>
-                    <img src="assets/img/icn-fb.png" alt="facebook">
-                </div>
-            </article>
-            <article>
-                <div>
-                    <p>100 million +</p>
-                    <img src="assets/img/icn-tw.png" alt="twitter">
-                </div>
-                <div>
-                    <p>People living in poverty depend on agriculture for survival.</p>
-                    <img src="assets/img/icn-fb.png" alt="facebook">
-                </div>
-            </article>
-            <article>
-                <div>
-                    <p>30%</p>
-                    <img src="assets/img/icn-tw.png" alt="twitter">
-                </div>
-                <div>
-                    <p>People living in poverty depend on agriculture for survival.</p>
-                    <img src="assets/img/icn-fb.png" alt="facebook">
-                </div>
-            </article>
-            <article>
-                <div>
-                    <p>200 million +</p>
-                    <img src="assets/img/icn-tw.png" alt="twitter">
-                </div>
-                <div>
-                    <p>People living in poverty depend on agriculture for survival.</p>
-                    <img src="assets/img/icn-fb.png" alt="facebook">
-                </div>
-            </article>
+            <div class="flex flex-col gap-4 lg:h-fit lg:gap-8 lg:w-[472px]">
+                <article class="bg-white px-4 pt-6 pb-4 flex flex-col gap-6 relative lg:px-16">
+                    <div class="frame-title absolute self-center -top-5 lg:left-16" >DID YOU KNOW</div>
+                    <div class="flex justify-between font-bold text-[22px] px-[9px] ">
+                        <p > 3 out of 4</p>
+                        <img src="assets/img/icn-tw.png" alt="twitter">
+                    </div>
+                    <div class="flex justify-between items-center text-sm px-[9px] lg:gap-6">
+                        <p class="text-wrap">People living in poverty depend on agriculture for survival.</p>
+                        <img src="assets/img/icn-fb.png" alt="facebook">
+                    </div>
+                </article>
+                <article class="bg-white px-4 pt-6 pb-4 flex flex-col gap-6 p-4 lg:px-16">
+                    <div class="flex justify-between font-bold text-[22px] px-[9px]">
+                        <p>100 million +</p>
+                        <img src="assets/img/icn-tw.png" alt="twitter">
+                    </div>
+                    <div class="flex justify-between items-center text-sm px-[9px] lg:gap-6">
+                        <p class="text-wrap">People living in poverty depend on agriculture for survival.</p>
+                        <img src="assets/img/icn-fb.png" alt="facebook">
+                    </div>
+                </article>
+                <article class="bg-white px-4 pt-6 pb-4 flex flex-col gap-6 p-4 lg:px-16">
+                    <div class="flex justify-between font-bold text-[22px] px-[9px]">
+                        <p>30%</p>
+                        <img src="assets/img/icn-tw.png" alt="twitter">
+                    </div>
+                    <div class="flex justify-between items-center text-sm px-[9px] ">
+                        <p class="text-wrap">People living in poverty depend on agriculture for survival.</p>
+                        <img src="assets/img/icn-fb.png" alt="facebook">
+                    </div>
+                </article>
+                <article class="bg-white px-4 pt-6 pb-4 flex flex-col gap-6 p-4 lg:px-16">
+                    <div class="flex justify-between font-bold text-[22px] px-[9px]">
+                        <p>200 million +</p>
+                        <img src="assets/img/icn-tw.png" alt="twitter">
+                    </div>
+                    <div class="flex justify-between items-center text-sm px-[9px] lg:gap-6">
+                        <p class="text-wrap">People living in poverty depend on agriculture for survival.</p>
+                        <img src="assets/img/icn-fb.png" alt="facebook">
+                    </div>
+                </article>
+            </div>
         </section>
         <!-- Stories -->
-        <section>
-            <div>
-                <div>STORIES</div>
-                <img src="assets/img/lady-baby.png" alt="habitante et enfant">
+        <section class="flex flex-col px-8 pt-12 pb-8 gap-8 items-center">
+            <div class="flex flex-col relative">
+                <div class="frame-title absolute self-center -top-5">STORIES</div>
+                <img src="assets/img/lady-baby.png" alt="habitante et enfant" class="w-[326px]">
             </div>
-            <article>
-                <p>“I am a person who was helped by this organization. Before they gave me assistance, i was really struggling with this issue, but...</p>
-                <p>balki, farmer and mother in niger</p>
+            <article class="bg-primary text-center flex flex-col gap-6 p-8">
+                <p class="text-white font-bold text-[22px]">“I am a person who was helped by this organization. Before they gave me assistance, i was really struggling with this issue, but..."</p>
+                <p class="text-white uppercase text-[11px]">balki, farmer and mother in niger</p>
             </article>
-            <a href="#">READ MORE</a>
-            <div>
+            <a href="#" class="btn bg-secondary">READ MORE</a>
+            <div class="flex justify-center gap-2 ">
                 <img src="assets/img/point-full.svg" alt="">
                 <img src="assets/img/point-empty.svg" alt="">
                 <img src="assets/img/point-empty.svg" alt="">
@@ -143,78 +155,78 @@
             </div>
         </section>
         <!-- Lets take action -->
-        <section>
-            <h2>LET'S TAKE ACTION NOW TO SAVE PLANET</h2>
-            <article>
-                <div>EVENT</div>
+        <section class="bg-primary flex flex-col items-center text-center p-8 gap-20">
+            <h2 class="big-title">LET'S TAKE ACTION NOW TO SAVE PLANET</h2>
+            <article class="flex flex-col items-center text-white px-8 gap-6 relative">
+                <div class="frame-white text-primary absolute -top-5">EVENT</div>
                 <img src="assets/img/tree-planting.png" alt="plantation d'un arbre">
                 <h3>Earth Day community tree planting event</h3>
-                <p>Office ipsum you must be muted. Competitors synergy so stronger window whatever and work chime tiger. Shower backwards effects vec running first race.</p>
-                <a href="#">READ MORE</a>
+                <p class="text-sm">Office ipsum you must be muted. Competitors synergy so stronger window whatever and work chime tiger. Shower backwards effects vec running first race.</p>
+                <a href="#" class="btn bg-secondary text-primary">READ MORE</a>
             </article>
-            <article>
-                <div>LATEST NEWS</div>
+            <article class="flex flex-col items-center text-white px-8 gap-6 relative">
+                <div class="frame-white text-primary absolute -top-5">LATEST NEWS</div>
                 <img src="assets/img/tree-planting.png" alt="plantation d'un arbre">
                 <h3>Earth Day community tree planting event</h3>
-                <p>Office ipsum you must be muted. Competitors synergy so stronger window whatever and work chime tiger. Shower backwards effects vec running first race.</p>
-                <a href="#">READ MORE</a>
+                <p class="text-sm">Office ipsum you must be muted. Competitors synergy so stronger window whatever and work chime tiger. Shower backwards effects vec running first race.</p>
+                <a href="#" class="btn bg-secondary text-primary">READ MORE</a>
             </article>
         </section>
         <!-- Soucrivez -->
-        <section>
-            <p>Subscribe to our monthly newsletter and stay up to date with all news and events.</p>
-            <div>
-                <p>Enter your email adress</p>
-                <a href="#">SUBSCRIBE</a>
+        <section class="bg-secondary flex flex-col gap-6 pt-12 pb-8 px-4">
+            <p class="text-[22px] font-bold">Subscribe to our monthly newsletter and stay up to date with all news and events.</p>
+            <div class="flex justify-center px-4 gap-4">
+                <input type="text" name="email" id="email" placeholder="Enter your email address" class="bg-white rounded-3xl pl-[11.5px] py-[12.5px] max-w-[190px] placeholder:text-sm">
+                <a href="#" class="btn bg-primary text-secondary  font-medium max-w-[150px]">SUBSCRIBE</a>
             </div>
         </section>
     </main>
-    <footer>
-        <div>
-            The Green Trees Initiative
+    <footer class="flex flex-wrap gap-12 px-4 pt-16 pb-4 justify-center">
+        <div class="w-[140px] font-bold">
+            The Green <br>Trees <br>Initiative
         </div>
-        <ul>
-            <li>CONTACT US</li>
+        <ul class="w-[140px] text-sm leading-[22px]">
+            <li class="text-[11px]">CONTACT US</li>
             <li>123 Anywhere St.</li>
             <li>Cityname, NY 11206</li>
             <li>(123) 456-7890</li>
             <li>contact@npo.org</li>
         </ul>
-        <ul>
-            <li>
+        <ul class="w-[140px] text-sm leading-[22px]">
+            <li class="text-[11px]">
                 FOLLOW US
             </li>
-            <li>
+            <li class="underline">
                 <a href="#">Facebook</a>
             </li>
-            <li>
+            <li class="underline">
                 <a href="#">Twitter</a>
             </li>
-            <li>
+            <li class="underline">
                 <a href="#">Instragam</a>
             </li>
-            <li>
+            <li class="underline">
                 <a href="#">Medium</a>
             </li>
         </ul>
-        <ul>
-            <li>
+        <ul class="w-[140px] text-sm leading-[22px]">
+            <li class="text-[11px]">
                 LEARN MORE
             </li>
-            <li>
+            <li class="underline">
                 <a href="#">The issue</a>
             </li>
-            <li>
+            <li class="underline">
                 <a href="#">How we help</a>
             </li>
-            <li>
+            <li class="underline">
                 <a href="#">Get involved</a>
             </li>
-            <li>
+            <li class="underline">
                 <a href="#">Latest news</a>
             </li>
         </ul>
-        <h2># STOP CLIMATE CHANGE</h2>
+        <h2 class="big-title text-primary text-right min-w-full"># STOP <br>CLIMATE <br>CHANGE</h2>
     </footer>
 </body>
 </html>

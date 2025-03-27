@@ -19,7 +19,7 @@
 
 @layer components {
     .btn {
-        @apply bg-secondary rounded-[30px] py-2.5 font-bold;
+        @apply  rounded-3xl px-[30px] py-2.5 font-bold w-fit text-lg;
     }
 
     .frame-white {
@@ -31,10 +31,14 @@
     }
 
     .big-title {
-        @apply text-white font-title text-[40px] max-w-[230px];
+        @apply text-white font-title text-[40px] max-w-[230px] lg:text-7xl lg:max-w-fit;
     }
 
-    .frame-action {
-        @apply max-w-[127px];
+    .card {
+        @apply bg-white flex flex-col items-center relative gap-6 pt-[150px]  pb-8 lg:px-8 lg:h-fit;
+    }
+
+    h3 {
+        @apply font-bold text-lg lg:text-[28px];
     }
 }
