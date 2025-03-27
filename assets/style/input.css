@@ -1,1 +1,40 @@
 @import  "tailwindcss";
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter.ttf')
+    }
+
+@font-face {
+    font-family: 'flood';
+    src: url('../fonts/Flood-Std-Regular.otf')
+}
+
+@theme {
+    --font-primary: 'inter';
+    --font-title: 'flood';
+    --color-primary: #354463;
+    --color-secondary: #C1F7D5;
+}
+
+@layer components {
+    .btn {
+        @apply bg-secondary rounded-[30px] py-2.5 font-bold;
+    }
+
+    .frame-white {
+        @apply bg-white px-[30px] py-2.5 w-fit text-sm;
+    }
+
+    .frame-title {
+        @apply text-white bg-primary px-[30px] py-2.5 w-fit text-sm;
+    }
+
+    .big-title {
+        @apply text-white font-title text-[40px] max-w-[230px];
+    }
+
+    .frame-action {
+        @apply max-w-[127px];
+    }
+}
