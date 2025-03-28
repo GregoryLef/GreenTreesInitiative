@@ -41,4 +41,16 @@
     h3 {
         @apply font-bold text-lg lg:text-[28px];
     }
+
+    .card-mission {
+        @apply w-36 h-40 flex flex-col gap-4 items-start lg:w-[253px];
+    }
+
+    .card-person {
+        @apply  text-white flex flex-col justify-between gap-2 pb-2;
+    }
+
+    .name-person {
+        @apply bg-primary flex flex-col gap-1 px-4 text-sm lg:absolute lg:min-w-[320px] lg:bottom-8 lg:left-4;
+    }
 }
